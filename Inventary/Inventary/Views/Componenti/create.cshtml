@@ -1,0 +1,76 @@
+﻿@model Inventary.Models.Componente
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Aggiungi Articolo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Aggiungi Articolo</h2>
+
+        <form asp-action="Create" method="post" class="row g-3">
+            <div class="col-md-6">
+                <label asp-for="nome" class="form-label">Nome</label>
+                <input asp-for="nome" class="form-control" />
+                <span asp-validation-for="nome" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="categoria" class="form-label">Categoria</label>
+                <select asp-for="categoria" class="form-select">
+                    <option value="">-- Seleziona Categoria --</option>
+                    <option value="batteria">Batteria</option>
+                    <option value="olio">Olio</option>
+                    <option value="autoradio">Autoradio</option>
+                </select>
+                <span asp-validation-for="categoria" class="text-danger"></span>
+            </div>
+
+            <div class="col-12">
+                <label asp-for="descrizione" class="form-label">Descrizione</label>
+                <textarea asp-for="descrizione" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="descrizione" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-4">
+                <label asp-for="giacenza" class="form-label">Giacenza</label>
+                <input asp-for="giacenza" type="number" min="0" class="form-control" />
+                <span asp-validation-for="giacenza" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-4">
+                <label asp-for="prezzo" class="form-label">Prezzo</label>
+                <input asp-for="prezzo" type="number" step="0.01" min="0" class="form-control" />
+                <span asp-validation-for="prezzo" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-4">
+                <label asp-for="codice" class="form-label">Codice</label>
+                <input asp-for="codice" class="form-control" />
+                <span asp-validation-for="codice" class="text-danger"></span>
+            </div>
+
+            <div class="col-12">
+                <label asp-for="immagine" class="form-label">URL Immagine</label>
+                <input asp-for="immagine" class="form-control" />
+                <span asp-validation-for="immagine" class="text-danger"></span>
+            </div>
+
+            <div class="col-12 d-flex gap-2 mt-4">
+                <button type="submit" class="btn btn-primary">Aggiungi</button>
+                <a asp-action="Dashboard" asp-controller="Admin" class="btn btn-secondary">Annulla</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <partial name="_ValidationScriptsPartial" />
+</body>
+</html>

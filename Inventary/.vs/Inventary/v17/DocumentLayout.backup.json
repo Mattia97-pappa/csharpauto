@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\inventario\\Inventary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E999164-761C-4B57-A489-8703EF240F64}|Inventary\\Inventary.csproj|c:\\users\\lenovo\\desktop\\inventario\\inventary\\inventary\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E999164-761C-4B57-A489-8703EF240F64}|Inventary\\Inventary.csproj|solutionrelative:inventary\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E999164-761C-4B57-A489-8703EF240F64}|Inventary\\Inventary.csproj|c:\\users\\lenovo\\desktop\\inventario\\inventary\\inventary\\views\\componenti\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E999164-761C-4B57-A489-8703EF240F64}|Inventary\\Inventary.csproj|solutionrelative:inventary\\views\\componenti\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E999164-761C-4B57-A489-8703EF240F64}|Inventary\\Inventary.csproj|c:\\users\\lenovo\\desktop\\inventario\\inventary\\inventary\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E999164-761C-4B57-A489-8703EF240F64}|Inventary\\Inventary.csproj|solutionrelative:inventary\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E999164-761C-4B57-A489-8703EF240F64}|Inventary\\Inventary.csproj|c:\\users\\lenovo\\desktop\\inventario\\inventary\\inventary\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E999164-761C-4B57-A489-8703EF240F64}|Inventary\\Inventary.csproj|solutionrelative:inventary\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\inventario\\Inventary\\Inventary\\Views\\Componenti\\create.cshtml",
+              "RelativeDocumentMoniker": "Inventary\\Views\\Componenti\\create.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\inventario\\Inventary\\Inventary\\Views\\Componenti\\create.cshtml",
+              "RelativeToolTip": "Inventary\\Views\\Componenti\\create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-10T00:02:17.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\inventario\\Inventary\\Inventary\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Inventary\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\inventario\\Inventary\\Inventary\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Inventary\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T23:57:44.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\inventario\\Inventary\\Inventary\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Inventary\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\inventario\\Inventary\\Inventary\\Models\\Admin.cs",
+              "RelativeToolTip": "Inventary\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T23:57:43.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\inventario\\Inventary\\Inventary\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Inventary\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\inventario\\Inventary\\Inventary\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Inventary\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T23:55:27.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

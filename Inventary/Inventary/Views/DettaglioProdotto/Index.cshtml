@@ -1,0 +1,16 @@
+﻿@model Inventary.Models.Componente
+
+<h2>Dettaglio Prodotto</h2>
+
+<div>
+    <h3>@Model.nome</h3>
+    <img src="@Model.immagine" alt="@Model.nome" style="max-width:300px;" />
+    <p><strong>Descrizione:</strong> @Model.descrizione</p>
+    <p><strong>Categoria:</strong> @Model.categoria</p>
+    <p><strong>Prezzo:</strong> @Model.prezzo.ToString("C")</p>
+    <p><strong>Giacenza:</strong> @Model.giacenza</p>
+</div>
+
+<p>
+    <a href="/Componenti?categoria=@Model.categoria">Torna alla lista</a>
+</p>

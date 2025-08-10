@@ -1,0 +1,35 @@
+﻿@model List<Inventary.Models.Componente>
+
+<h2>Prodotti</h2>
+<p>Disponibilità negozio</p>
+
+@if (!Model.Any())
+{
+    <p>Nessun componente trovato.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Prezzo</th>
+                <th>Giacenza</th>
+                <th>Vedi prodotto</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.nome</td>
+                    <td>@item.categoria</td>
+                    <td>@item.prezzo.ToString("C")</td>
+                    <td>@item.giacenza</td>
+                    <td><a class="btn btn-primary" href="/DettaglioProdotto?id=@item.id">Vedi prodotto</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
