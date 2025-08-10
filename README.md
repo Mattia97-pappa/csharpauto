@@ -13,7 +13,7 @@ Progetto di un negozio di componenti per automobili fatto con ASP.Net MVC e C#.
 
 ## Descrizione
 
-Questo sito permette agli utenti di vedere i prodotti disponibili(componenti per automobili) per categoria, con quantità, prezzo, immagine e descrizione.  
+Questo sito permette agli utenti di vedere i prodotti disponibili per categoria, con quantità, prezzo, immagine e descrizione.  
 Non è un e-commerce, quindi non si possono comprare i prodotti, solo consultare le giacenze.  
 
 C'è anche un’area amministratore dove si possono fare operazioni CRUD (creare, modificare, eliminare articoli) e cercarli per codice.
