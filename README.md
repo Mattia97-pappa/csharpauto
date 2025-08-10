@@ -30,5 +30,3 @@ Ecco un video dimostrativo:
 
 ## Codice
 
-Il codice sorgente è disponibile su GitHub:  
-[https://github.com/Mattia97-pappa/csharpauto]
